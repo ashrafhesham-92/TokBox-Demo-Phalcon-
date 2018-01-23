@@ -5,7 +5,7 @@ Demo for TokBox Video chat
 
 * The project is developed using Phalcon-PHP framework.
 * Clone the project
-* In the project's root directory run command ``` $ composer install ``` to install the required packages including the tokbox php SDK
+* In the project's root directory run command ``` composer require opentok/opentok 2.3.x``` to install the required packages including the tokbox php SDK
 * In the project's root dir you will find file "tokbox.sql" import it to your database.
   * this database contains a simple table called rooms
   * the table contains 3 fields (id, session_id and token)
